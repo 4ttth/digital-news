@@ -4,7 +4,7 @@
   "description": "A Web-Application designed to handle news built with MERN.",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon backend/app.js"
+    "dev": "nodemon src/app.js"
   },
   "type": "module",
   "keywords": [],
@@ -13,7 +13,8 @@
   "dependencies": {
     "dotenv": "^16.4.7",
     "express": "^5.1.0",
-    "mongoose": "^8.13.2"
+    "mongoose": "^8.13.2",
+    "mongoose-sequence": "^6.0.1"
   },
   "devDependencies": {
     "nodemon": "^3.1.9"
