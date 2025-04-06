@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-      <Button variant="outline">Button</Button>
+      <Button variant="outline">Button</Button> // This is a button component from the UI library
     </>
   )
 }
